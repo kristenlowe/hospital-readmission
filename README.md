@@ -26,10 +26,11 @@ This project predicts hospital readmission risk for diabetic patients using mach
 
 ## Workflow
 
-| Stage | Description | Assigned To |
+| Stage | Description | Done by |
 |-------|-------------|-------------|
 | **Data Integration** | Merge UCI dataset with BRFSS demographic health data | |
 | **Data Cleaning and Feature Engineering** | Handle missing values; Create literature-based predictive features: polypharmacy burden (medication count thresholds), glycemic control proxy (HbA1c testing + diabetes medication changes), discharge instability score (admission urgency + procedure volume + length of stay) | |
 | **EDA** | Explore patterns, correlations, and disparities | |
-| **Modeling** | Logistic regression (L1 penalty), comparison with other models | |
-| **Evaluation** | Accuracy, fairness metrics, feature importance | |
+| **Modeling and Evaluation** | Logistic regression (L1 penalty), comparison with other models, accuracy, fairness metrics, feature importance | |
+| **Blog Report** | Blog-based project report | |
+| **Presentation** | In-class Powerpoint presentation | |

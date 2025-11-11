@@ -22,7 +22,7 @@ This project predicts hospital readmission risk for diabetic patients using mach
 - [BRFSS CDC Data](https://www.kaggle.com/datasets/lplenka/brfss-data)
 - 491,775 survey responses with demographic and behavioral health data
 - Features: BMI, high blood pressure, cholesterol, physical activity, smoking, income, education, healthcare access
-- Will be aggregated by race/age/gender and merged with UCI data
+- Aggregated by race/age/gender and merged with UCI data
 
 ## Workflow
 

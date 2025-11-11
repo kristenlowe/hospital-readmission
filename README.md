@@ -28,7 +28,7 @@ This project predicts hospital readmission risk for diabetic patients using mach
 
 | Stage | Description | File/Link | Done by |
 |-------|-------------|-------------|-------------|
-| **Data Integration** | Merge UCI dataset with BRFSS demographic health data | | |
+| **Data Integration** | Merge UCI dataset with BRFSS demographic health data | [data_merging.ipynb](https://github.com/kristenlowe/hospital-readmission/blob/main/data_merging.ipynb) | Kristen |
 | **Data Cleaning and Feature Engineering** | Handle missing values; Create literature-based predictive features: polypharmacy burden (medication count thresholds), glycemic control proxy (HbA1c testing + diabetes medication changes), discharge instability score (admission urgency + procedure volume + length of stay) | | |
 | **EDA** | Explore patterns, correlations, and disparities | | |
 | **Modeling and Evaluation** | Logistic regression (L1 penalty), comparison with other models, accuracy, fairness metrics, feature importance | | |

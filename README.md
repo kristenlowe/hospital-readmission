@@ -19,7 +19,7 @@ This project predicts hospital readmission risk for diabetic patients using mach
 - 47 clinical and demographic features
 
 **Additional Dataset (to be merged):**
-- [BRFSS Diabetes Health Indicators (2015)](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
+- [BRFSS CDC Data](https://www.kaggle.com/datasets/lplenka/brfss-data)
 - 253,680 survey responses with demographic and behavioral health data
 - Features: BMI, high blood pressure, cholesterol, physical activity, smoking, income, education, healthcare access
 - Will be aggregated by race/age/gender and merged with UCI data

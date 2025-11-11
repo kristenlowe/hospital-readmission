@@ -4,6 +4,17 @@
 
 This project predicts hospital readmission risk for diabetic patients using machine learning, with a focus on integrating social determinants of health and demographic context to improve upon traditional clinical-only models.
 
+## Workflow
+
+| Stage | Description | File/Link | Done by |
+|-------|-------------|-------------|-------------|
+| **Data Integration** | Merge UCI dataset with BRFSS demographic health data | [data_merging.ipynb](https://github.com/kristenlowe/hospital-readmission/blob/main/data_merging.ipynb) | Kristen |
+| **Data Cleaning and Feature Engineering** | Handle missing values, create literature-based predictive features | | |
+| **EDA** | Explore patterns, correlations, and disparities | | |
+| **Modeling and Evaluation** | Logistic regression (L1 penalty), comparison with other models, accuracy, fairness metrics, feature importance | | |
+| **Blog Report** | Blog-based project report | | |
+| **Presentation** | In-class Powerpoint presentation | | |
+
 ## Objectives
 
 - Predict 30-day hospital readmission risk for diabetic patients
@@ -24,13 +35,8 @@ This project predicts hospital readmission risk for diabetic patients using mach
 - Features: BMI, high blood pressure, cholesterol, physical activity, smoking, income, education, healthcare access
 - Aggregated by race/age/gender and merged with UCI data
 
-## Workflow
+## Literature-Based Features
+* Polypharmacy burden (num_medications > threshold)
+* Glycemic control proxy (HbA1c test performed yes/no + diabetesMed changes)
+* Discharge instability score (urgent admission + high num_procedures + short stay)
 
-| Stage | Description | File/Link | Done by |
-|-------|-------------|-------------|-------------|
-| **Data Integration** | Merge UCI dataset with BRFSS demographic health data | [data_merging.ipynb](https://github.com/kristenlowe/hospital-readmission/blob/main/data_merging.ipynb) | Kristen |
-| **Data Cleaning and Feature Engineering** | Handle missing values; Create literature-based predictive features: polypharmacy burden (medication count thresholds), glycemic control proxy (HbA1c testing + diabetes medication changes), discharge instability score (admission urgency + procedure volume + length of stay) | | |
-| **EDA** | Explore patterns, correlations, and disparities | | |
-| **Modeling and Evaluation** | Logistic regression (L1 penalty), comparison with other models, accuracy, fairness metrics, feature importance | | |
-| **Blog Report** | Blog-based project report | | |
-| **Presentation** | In-class Powerpoint presentation | | |

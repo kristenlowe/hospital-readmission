@@ -12,7 +12,7 @@ This project predicts hospital readmission risk for diabetic patients using mach
 | **Data Cleaning and Feature Engineering** | Handle missing values, create literature-based predictive features | [Data Cleaning and Feature Engineering.ipynb](https://github.com/kristenlowe/hospital-readmission/blob/f7d902f05b1ab1850e35eb754b94fa08f3ba0103/Data%20Cleaning%20and%20Feature%20Engineering.ipynb) | Varsha |
 | **EDA** | Explore patterns, correlations, and disparities | [AML_EDA.ipynb](https://github.com/kristenlowe/hospital-readmission/blob/main/AML_EDA.ipynb) | Nisha |
 | **Modeling and Evaluation** | Logistic regression (L1 penalty), comparison with other models, accuracy, fairness metrics, feature importance | [AML_Modeling_Evaluation.ipynb](https://github.com/kristenlowe/hospital-readmission/blob/main/AML_Modeling_Evaluation.ipynb) | Joseph |
-| **Presentation** | In-class Powerpoint presentation | | Zan |
+| **Presentation** | In-class Powerpoint presentation | [Texas McCombs MSBA Advanced Machine Learning Fall 2025.pdf](https://github.com/kristenlowe/hospital-readmission/blob/main/Texas%20McCombs%20MSBA%20Advanced%20Machine%20Learning%20Fall%202025.pdf) | Zan |
 | **Blog Report** | Blog-based project report | | |
 
 ## Objectives

@@ -9,9 +9,9 @@ This project predicts hospital readmission risk for diabetic patients using mach
 | Stage | Description | File/Link | Done by |
 |-------|-------------|-------------|-------------|
 | **Data Integration** | Merge UCI dataset with BRFSS demographic health data | [data_merging.ipynb](https://github.com/kristenlowe/hospital-readmission/blob/main/data_merging.ipynb) | Kristen |
-| **Data Cleaning and Feature Engineering** | Handle missing values, create literature-based predictive features | [Data Cleaning and Feature Engineering.ipynb](https://github.com/kristenlowe/hospital-readmission/blob/f7d902f05b1ab1850e35eb754b94fa08f3ba0103/Data%20Cleaning%20and%20Feature%20Engineering.ipynb) | Varsha Ramesh |
+| **Data Cleaning and Feature Engineering** | Handle missing values, create literature-based predictive features | [Data Cleaning and Feature Engineering.ipynb](https://github.com/kristenlowe/hospital-readmission/blob/f7d902f05b1ab1850e35eb754b94fa08f3ba0103/Data%20Cleaning%20and%20Feature%20Engineering.ipynb) | Varsha |
 | **EDA** | Explore patterns, correlations, and disparities | | |
-| **Modeling and Evaluation** | Logistic regression (L1 penalty), comparison with other models, accuracy, fairness metrics, feature importance | | |
+| **Modeling and Evaluation** | Logistic regression (L1 penalty), comparison with other models, accuracy, fairness metrics, feature importance | [AML_Modeling_Evaluation.ipynb](https://github.com/kristenlowe/hospital-readmission/blob/main/AML_Modeling_Evaluation.ipynb) | Joseph |
 | **Blog Report** | Blog-based project report | | |
 | **Presentation** | In-class Powerpoint presentation | | |
 
